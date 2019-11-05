@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-mq-delay",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "gulp build",
+    "clean": "gulp clean",
+    "dev": "npm run clean && npm run build"
+  },
+  "dependencies": {
+    "amqplib": "^0.5.5",
+    "js-dev-knife": "^1.0.1"
+  }
+}
